@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_10195594Ejercicio4.OperacionMatematica"
+             Title="OperacionMatematica">
+    <!--<Summary>
+    <Createddate> 25 may. 2024</Createddate>
+    <company> Bazar Rosario </company>
+    <lastmodificationdate> 29 may. 2024</lastmodificationdate>
+    <lastmodificationdescription>
+           Ultima modificación. Agregue la documentacion XML al programa y la validación de los campos
+    </lastmodificationdescription>
+    <lastmodifierautor> Estrella Orellana</lastmodifierautor>
+</Summary>-->
+    <ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="30">
+            <Image Source="cubo.jpg" WidthRequest="200" HorizontalOptions="Center"/>
+            <Label 
+            Text="Ejercicio 4 : cálcular el cuadrado y el cubo de un número entero positivo"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry Placeholder="Ingrese un número entero positivo" x:Name="Num1"/>
+            <Entry Placeholder="Resultado" x:Name="EntryResultado"/>
+            <Button Text="Cálcular Operación" Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
